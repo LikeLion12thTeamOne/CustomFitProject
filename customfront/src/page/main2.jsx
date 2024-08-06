@@ -533,7 +533,7 @@ const Main2 = () => {
         <img id="ylogo" src="/static/logo/ylogo.svg" alt="로고" width="30px" />
         <input
           type="text"
-          placeholder="검색어를 입력하세요."
+          placeholder="원하는 과자를 입력하세요."
           value={searchQuery}
           onChange={handleSearchInputChange}
         />
