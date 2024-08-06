@@ -237,7 +237,13 @@ const Main0 = () => {
         <k.Box2>
           <k.News>
             <k.Card>
-              <img id="black" src="/static/logo/black.svg" alt="black" />
+              <img
+                id="black"
+                src="/static/logo/black.svg"
+                alt="black"
+                width="45px"
+                height="45px"
+              />
               <img id="card" src="/static/logo/card1.svg" alt="card" />
               <img id="card" src="/static/logo/card2.svg" alt="card" />
               <img id="card" src="/static/logo/card3.svg" alt="card" />

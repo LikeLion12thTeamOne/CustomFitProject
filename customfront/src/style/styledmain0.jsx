@@ -116,7 +116,6 @@ export const SmallBox2 = styled.div`
   text-align: center;
 `;
 
-
 export const Keywordd = styled.div`
   margin-left: 20px;
   margin-top: 30px;
@@ -124,12 +123,11 @@ export const Keywordd = styled.div`
   justify-content: center;
 `;
 
-
 export const Body = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 60px;
-  margin-left: 215px; 
+  margin-left: 215px;
   width: 393px;
   height: 400px;
 `;
@@ -156,7 +154,7 @@ export const SmallBox5 = styled.div`
   flex-shrink: 0;
   font-size: 13px;
   border-radius: 10px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   justify-content: center;
   align-items: center;
@@ -176,7 +174,6 @@ export const Box = styled.div`
   background: #fff;
   box-shadow: 0px 0px 4px 4px #f2f2f2;
 `;
-
 
 export const Button = styled.div`
   position: absolute;
@@ -199,16 +196,16 @@ export const News = styled.div`
   margin-top: 20px;
   flex-direction: row;
   width: 372px;
-  height: 350px; 
-  gap: 7px; 
-  overflow-x: auto; 
+  height: 350px;
+  gap: 7px;
+  overflow-x: auto;
   overflow-y: hidden;
-  scrollbar-width: none; 
-  background-color: transparent; 
+  scrollbar-width: none;
+  background-color: transparent;
   border: none;
 
   &::-webkit-scrollbar {
-    display: none; 
+    display: none;
   }
 `;
 
@@ -217,13 +214,20 @@ export const Card = styled.div`
   margin-left: 5px;
   margin-top: 10px;
   flex-shrink: 0;
-  width: 100%; 
-  height: 330px; 
-  display: flex; 
-  gap: 15px; 
+  width: 100%;
+  height: 330px;
+  display: flex;
+  gap: 15px;
   img {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
+  }
+  #black {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 30px;
+    top: 150px;
   }
 `;
 
