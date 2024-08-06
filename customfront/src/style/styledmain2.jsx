@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin-top: 0px;
   background: #fff;
   text-align: center;
+  overflow: ${(props) => (props.isMenuOpen ? "hidden" : "auto")};
 `;
 
 export const Header = styled.div`
@@ -175,7 +176,7 @@ export const List2 = styled.div`
   width: 393px;
   background: #f2f2f2;
   overflow-x: auto;
-  scrollbar-width: none;
+  scrollbar-width: thin;
   background-color: none;
   border: none;
 `;
@@ -397,7 +398,7 @@ export const SelectedItemsSection = styled.div`
   align-items: flex-start;
   margin-left: 10px;
   width: 370px; /* 설정된 너비 */
-  height: 37px;
+  height: 60px;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 0px 4px 4px #f2f2f2;
@@ -417,7 +418,7 @@ export const SelectedItemsList = styled.ul`
   width: 325px; /* 부모 컨테이너의 너비에 맞춤 */
   overflow-x: auto; /* 가로 스크롤 가능 */
   overflow-y: hidden; /* 세로 스크롤 숨기기 */
-  scrollbar-width: none; /* Firefox에서 스크롤바 숨기기 */
+  scrollbar-width: thin; /* Firefox에서 스크롤바 숨기기 */
 
   &::-webkit-scrollbar {
     display: none; /* Webkit 기반 브라우저에서 스크롤바 숨기기 */
