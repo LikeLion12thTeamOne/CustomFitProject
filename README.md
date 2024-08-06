@@ -84,15 +84,8 @@ all_project<br/>
 
 
 # 5. 플로우 차트
+![플로우차트](https://github.com/user-attachments/assets/73685e10-82a7-478e-91c0-9f17ea3aad09)
 
-
-
-
-# 6. 정보 구조도
-![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/c22bc1fe-adbb-410a-86b7-b53e4778c622)
-
-
-# 7. ERD
-![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/d1a55c71-dc9c-4a21-801e-f7438aee7222)
-
+# 6. ERD
+<img width="609" alt="erd" src="https://github.com/user-attachments/assets/72df50c0-2edd-4185-96a8-a770bebc46cd">
 
