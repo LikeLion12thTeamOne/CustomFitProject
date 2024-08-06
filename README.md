@@ -5,7 +5,7 @@
 
 
 # 1. 서비스 소개
-![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/15a5301f-8fa2-48ec-8116-8e4dff5321a3)
+![맞춤 서비스](https://github.com/user-attachments/assets/a8c5818b-ef3c-4ed9-991a-bee728f84245)
 
 
 
