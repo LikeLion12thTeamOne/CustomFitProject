@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as i from "../style/styledreviewcheck3";
+import { Helmet } from "react-helmet";
 
 const Reviewcheck3 = () => {
   const navigate = useNavigate();
@@ -102,6 +103,9 @@ const Reviewcheck3 = () => {
 
   return (
     <i.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <i.Header>
         <img
           id="back"

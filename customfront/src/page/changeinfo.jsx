@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as i0 from "../style/styledchangeinfo";
+import { Helmet } from "react-helmet";
 
 const Changeinfo = () => {
   const navigate = useNavigate();
@@ -64,6 +65,9 @@ const Changeinfo = () => {
 
   return (
     <i0.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <i0.Header>
         <img
           id="back"

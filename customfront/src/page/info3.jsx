@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as dd from "../style/styledinfo3";
+import { Helmet } from "react-helmet";
 
 const Info3 = () => {
   const navigate = useNavigate();
@@ -104,6 +105,9 @@ const Info3 = () => {
 
   return (
     <dd.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <dd.Header>
         <img
           id="back"

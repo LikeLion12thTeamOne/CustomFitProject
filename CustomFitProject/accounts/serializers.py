@@ -83,7 +83,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
     # 비밀번호 조건 검사 >> 디자인에 맞춰서 수정함
     def validate_password(self, value):
         if len(value) < 8 or not any(char.isdigit() for char in value) or not any(char.isalpha() for char in value) or not any(char in '!@#$%^&*()_+-=[]{},.<>?/~' for char in value):
-            raise serializers.ValidationError('4~16자리 / 영문, 숫자, 특수문자 조합을 충족해 주세요.')
+            raise serializers.ValidationError('8~16자리 / 영문, 숫자, 특수문자 조합을 충족해 주세요.')
         return value
     
     # 이메일 조건 검사

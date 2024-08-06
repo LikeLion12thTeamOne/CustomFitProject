@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import * as z from "../style/styledmain3";
+import { Helmet } from "react-helmet";
 
 const Main3 = () => {
   const navigate = useNavigate();
@@ -130,6 +131,9 @@ const Main3 = () => {
 
   return (
     <z.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <z.Header>
         <img
           id="back"
@@ -256,25 +260,28 @@ const Main3 = () => {
           <z.Stext>{getStextLabel(userInfo.disease)}</z.Stext>
           <z.Ntext>{recommendedProduct?.protein || "N"}g</z.Ntext>
         </z.Wbox>
-        <z.Otext>
-          [{getDiseaseName(userInfo.disease)}] 선택한 다른 회원들의 의견이에요!
-        </z.Otext>
       </z.Ybox>
 
       <z.Sbox>
         <z.Button2>
-          <img
-            id="ylogo"
-            src="/static/logo/good10.svg"
-            alt="logo"
-            width="65px"
-          />
-          <img
-            id="ylogo"
-            src="/static/logo/bad10.svg"
-            alt="logo"
-            width="65px"
-          />
+          <z.Otext1>
+            [{getDiseaseName(userInfo.disease)}] 선택한 다른 회원들의
+            의견이에요!
+          </z.Otext1>
+          <z.Otext2>
+            <img
+              id="ylogo"
+              src="/static/logo/good10.svg"
+              alt="logo"
+              width="65px"
+            />
+            <img
+              id="ylogo"
+              src="/static/logo/bad10.svg"
+              alt="logo"
+              width="65px"
+            />
+          </z.Otext2>
         </z.Button2>
         <z.Otext>맞춤의 추천 서비스에 만족하시나요?</z.Otext>
         <z.Explain>

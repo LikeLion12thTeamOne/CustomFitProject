@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import * as l3 from "../style/styledlogincomplete";
+import { Helmet } from "react-helmet";
 
 const Logincomplete = () => {
   const navigate = useNavigate();
@@ -11,6 +12,9 @@ const Logincomplete = () => {
 
   return (
     <l3.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <l3.Title>
         <l3.Box>
           <img

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import * as f1 from "../style/styledfirst";
+import { Helmet } from "react-helmet";
 
 const First = () => {
   const navigate = useNavigate();
@@ -55,6 +56,9 @@ const First = () => {
 
   return (
     <f1.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <f1.Ybox>
         <f1.Top>
           <span style={{ fontWeight: "500", fontSize: "20px", color: "#000" }}>
@@ -134,6 +138,7 @@ const First = () => {
         </f1.Sub>
         <f1.News>
           <f1.Card>
+            <img id="white" src="/static/logo/white.svg" alt="white" />
             <img id="card" src="/static/logo/card1.svg" alt="card" />
             <img id="card" src="/static/logo/card2.svg" alt="card" />
             <img id="card" src="/static/logo/card3.svg" alt="card" />

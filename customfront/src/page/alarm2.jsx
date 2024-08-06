@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as y from "../style/styledalarm2";
+import { Helmet } from "react-helmet";
 
 const Alarm2 = () => {
   const navigate = useNavigate();
@@ -28,6 +29,9 @@ const Alarm2 = () => {
 
   return (
     <y.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <y.Header>
         <img
           id="back"

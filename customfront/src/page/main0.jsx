@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import * as k from "../style/styledmain0";
+import { Helmet } from "react-helmet";
 
 const Main0 = () => {
   const navigate = useNavigate();
@@ -13,6 +14,10 @@ const Main0 = () => {
 
   const goMain2 = () => {
     navigate(`/Main2`);
+  };
+
+  const goMain0 = () => {
+    navigate(`/Main0`);
   };
 
   const goReview = () => {
@@ -100,6 +105,9 @@ const Main0 = () => {
 
   return (
     <k.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <k.Header>
         <img
           id="back"
@@ -181,7 +189,7 @@ const Main0 = () => {
                 onClick={toggleMenu}
               />
             </k.DropdownItem>
-            <k.DropdownItem onClick={goMain2}>
+            <k.DropdownItem onClick={goMain0}>
               <img
                 id="mainpage"
                 src="/static/logo/mainpage.svg"
@@ -229,6 +237,7 @@ const Main0 = () => {
         <k.Box2>
           <k.News>
             <k.Card>
+              <img id="black" src="/static/logo/black.svg" alt="black" />
               <img id="card" src="/static/logo/card1.svg" alt="card" />
               <img id="card" src="/static/logo/card2.svg" alt="card" />
               <img id="card" src="/static/logo/card3.svg" alt="card" />

@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import * as p1 from "../style/styledpwchange1";
+import { Helmet } from "react-helmet";
 
 const Pwchange1 = () => {
   const navigate = useNavigate();
@@ -11,6 +12,9 @@ const Pwchange1 = () => {
 
   return (
     <p1.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <p1.Header>
         <img
           id="back"

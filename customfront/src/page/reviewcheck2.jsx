@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as v from "../style/styledreviewcheck2";
+import { Helmet } from "react-helmet";
 
 const Reviewcheck2 = () => {
   const navigate = useNavigate();
@@ -115,6 +116,9 @@ const Reviewcheck2 = () => {
 
   return (
     <v.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       {showPopup && (
         <v.Popup>
           <v.PopupContent>

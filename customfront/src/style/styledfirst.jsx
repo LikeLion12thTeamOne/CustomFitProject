@@ -141,16 +141,16 @@ export const News = styled.div`
   margin-top: 20px;
   flex-direction: row;
   width: 385px;
-  height: 350px; 
-  gap: 7px; 
-  overflow-x: auto; 
+  height: 350px;
+  gap: 7px;
+  overflow-x: auto;
   overflow-y: hidden;
-  scrollbar-width: none; 
-  background-color: transparent; 
+  scrollbar-width: none;
+  background-color: transparent;
   border: none;
 
   &::-webkit-scrollbar {
-    display: none; 
+    display: none;
   }
 `;
 
@@ -159,16 +159,21 @@ export const Card = styled.div`
   margin-left: 18px;
   margin-top: 10px;
   flex-shrink: 0;
-  width: 100%; 
-  height: 330px; 
-  display: flex; 
-  gap: 15px; 
+  width: 100%;
+  height: 330px;
+  display: flex;
+  gap: 15px;
   img {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
+  }
+  #white {
+    width: 40px;
+    height: 30px;
+    margin: 15px;
+    margin-top: 150px;
   }
 `;
-
 
 export const Button2 = styled.div`
   display: flex;

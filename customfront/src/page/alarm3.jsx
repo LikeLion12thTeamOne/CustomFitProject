@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as a3 from "../style/styledalarm3";
+import { Helmet } from "react-helmet";
 
 const Alarm3 = () => {
   const navigate = useNavigate();
@@ -24,6 +25,9 @@ const Alarm3 = () => {
 
   return (
     <a3.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <a3.Header>
         <img
           id="back"

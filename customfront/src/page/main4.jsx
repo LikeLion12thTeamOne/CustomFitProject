@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import * as u from "../style/styledmain4";
+import { Helmet } from "react-helmet";
 
 const Main4 = () => {
   const navigate = useNavigate();
@@ -11,6 +12,9 @@ const Main4 = () => {
 
   return (
     <u.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <u.Header>
         <img
           id="back"

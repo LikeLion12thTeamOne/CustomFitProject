@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import * as l2 from "../style/styledlogin2";
+import { Helmet } from "react-helmet";
 
 const Login2 = () => {
   const [username, setUsername] = useState("");
@@ -95,6 +96,9 @@ const Login2 = () => {
 
   return (
     <l2.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <l2.Title>
         <l2.Box></l2.Box>
       </l2.Title>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as m from "../style/styledmypage";
+import { Helmet } from "react-helmet";
 
 const Mypage = () => {
   const navigate = useNavigate();
@@ -147,6 +148,9 @@ const Mypage = () => {
 
   return (
     <m.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <m.Header>
         <img
           id="back"
@@ -259,18 +263,33 @@ const Mypage = () => {
         </>
       )}
 
-      <img
-        id="profile"
-        src="/static/logo/profile.svg"
-        alt="profile"
-        style={{
-          position: "absolute",
-          top: "97px",
-          left: "48px",
-          cursor: "pointer",
-          zIndex: "8",
-        }}
-      />
+      {userInfo.gender === "Female" ? (
+        <img
+          id="profile"
+          src="/static/logo/profile.svg"
+          alt="profile"
+          style={{
+            position: "absolute",
+            top: "97px",
+            left: "48px",
+            cursor: "pointer",
+            zIndex: "8",
+          }}
+        />
+      ) : (
+        <img
+          id="profile"
+          src="/static/logo/profile2.svg"
+          alt="profile"
+          style={{
+            position: "absolute",
+            top: "97px",
+            left: "48px",
+            cursor: "pointer",
+            zIndex: "8",
+          }}
+        />
+      )}
 
       <m.Top></m.Top>
 

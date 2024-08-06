@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import * as s from "../style/styledmembership";
+import { Helmet } from "react-helmet";
 
 axios.defaults.withCredentials = true;
 
@@ -116,6 +117,9 @@ const Membership = () => {
 
   return (
     <s.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <s.Header>
         <img
           id="back"

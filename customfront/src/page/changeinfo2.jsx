@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as c from "../style/styledchangeinfo2";
+import { Helmet } from "react-helmet";
 
 const Changeinfo2 = () => {
   const navigate = useNavigate();
@@ -133,6 +134,9 @@ const Changeinfo2 = () => {
 
   return (
     <c.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <c.Header>
         <img
           id="back"

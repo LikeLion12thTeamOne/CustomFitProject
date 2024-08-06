@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import * as zz from "../style/styledinfo5";
+import { Helmet } from "react-helmet";
 
 const Info5 = () => {
   const navigate = useNavigate();
@@ -120,6 +121,9 @@ const Info5 = () => {
 
   return (
     <zz.Container>
+      <Helmet>
+        <title>맞춤</title>
+      </Helmet>
       <zz.Header>
         <img
           id="back"

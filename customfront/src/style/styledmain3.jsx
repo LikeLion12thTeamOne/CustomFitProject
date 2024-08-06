@@ -203,9 +203,6 @@ export const Sbox = styled.div`
 export const Otext = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   color: #000;
   text-align: center;
   font-family: "Gothic A1";
@@ -216,19 +213,45 @@ export const Otext = styled.div`
   width: 350px;
   height: 40px;
   flex-shrink: 0;
-  margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+`;
+
+export const Otext1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+  font-family: "Gothic A1";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 350px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: -50px;
+  margin-left: 10px;
+`;
+
+export const Otext2 = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
 `;
 
 export const Button2 = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -60px;
+  margin-top: -20px;
   height: 200px;
-  width: 393px;
+  width: 338px;
   gap: 15px;
+  border-radius: 10px;
+  background: rgba(242, 242, 242, 0.69);
 `;
 
 export const Explain = styled.div`
