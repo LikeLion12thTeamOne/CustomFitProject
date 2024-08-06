@@ -19,11 +19,10 @@
 
 
 # 2. 기술 스택
-- 기획/디자인<br/><img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-- 프론트<br/><img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-- 백<br/><img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
-- 협업툴<br/><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+- 기획/디자인 : 피그마
+- 프론트 : 리액트
+- 백 : 파이썬, 장고
+- 협업툴 : 피그마, 노션, 깃허브
 
 
 
@@ -31,9 +30,8 @@
 # 3. 팀원 소개
 |정예원|선지오|조민영|최유연|이가연|
 |------|-----|------|------|------|
-|![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/b138ef14-9e15-40ea-8796-9beb2c55252d)|![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/2210a672-7604-4d31-a99d-1ef6b5e0b1b2)|![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/32563c23-fa22-4539-9484-2c9c149acfdc)|![미모티콘](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/173da629-1b6d-407f-a974-c43ab8844e34)|![Untitled](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/5e8e97c3-a711-48fa-b3a4-8a33c0969143)|
 |기획&디자인|프론트엔드|프론트엔드|백엔드|백엔드|
-|기획<br/>디자인<br/>발표|커뮤니티<br/>마이페이지|회원관리<br/>스터디|커뮤니티<br/>마이페이지|회원관리<br/>스터디|
+|기획<br/>디자인<br/>발표|페이지<br/>백엔드 연동|페이지<br/>백엔드 연동|회원관리<br/>알림|맞춤 추천 기능<br/>리뷰|
 
 
 
