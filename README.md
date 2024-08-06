@@ -22,7 +22,7 @@
 
 
 # 3. 팀원 소개
-|김도연|김현지|장서원|정지윤|이가연|
+|정예원|선지오|조민영|최유연|이가연|
 |------|-----|------|------|------|
 |![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/b138ef14-9e15-40ea-8796-9beb2c55252d)|![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/2210a672-7604-4d31-a99d-1ef6b5e0b1b2)|![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/32563c23-fa22-4539-9484-2c9c149acfdc)|![미모티콘](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/173da629-1b6d-407f-a974-c43ab8844e34)|![Untitled](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/5e8e97c3-a711-48fa-b3a4-8a33c0969143)|
 |기획&디자인|프론트엔드|프론트엔드|백엔드|백엔드|
