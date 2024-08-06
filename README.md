@@ -38,77 +38,52 @@
 
 # 4. 폴더 구조
 all_project<br/>
-└─ House Talk Project<br/>
-├─ HouseTalk<br/>
-│  ├─ init.py<br/>
-│  ├─ asgi.py<br/>
-│  ├─ manage,py<br/>
+└─ CustomFitProject<br/>
+├─ CustomFitProject<br/>
 │  ├─ settings.py<br/>
-│  ├─ urls.py<br/>
-│  └─ wsgi.py<br/>
+│  └─ urls.py<br/>
 ├─ accounts/<br/>
-│  ├─ pycache/<br/>
-│  ├─ migrations/<br/>
-│  ├─ templates/<br/>
-│  ├─ init.py<br/>
 │  ├─ admin.py<br/>
 │  ├─ apps.py<br/>
-│  ├─ forms.py<br/>
-│  ├─ models.py<br/>
-│  ├─ tests.py<br/>
+│  ├─ serializers.py<br/>
 │  ├─ urls.py<br/>
 │  └─ views.py<br/>
-├─ board/<br/>
-│  ├─ pycache/<br/>
-│  ├─ migrations/<br/>
-│  ├─ templates/<br/>
-│  ├─ init.py<br/>
+├─ customFit/<br/>
+│  ├─ db.uploader.py<br/>
+│  ├─ ProductDB.csv<br/>
 │  ├─ admin.py<br/>
 │  ├─ apps.py<br/>
-│  ├─ forms.py<br/>
-│  ├─ models.py<br/>
-│  ├─ tests.py<br/>
+│  ├─ signals.py<br/>
+│  ├─ serializers.py<br/>
 │  ├─ urls.py<br/>
 │  └─ views.py<br/>
-├─ study/<br/>
-│  ├─ pycache/<br/>
-│  ├─ migrations/<br/>
-│  ├─ templates/<br/>
-│  ├─ init.py<br/>
+├─ myPage/<br/>
 │  ├─ admin.py<br/>
 │  ├─ apps.py<br/>
-│  ├─ forms.py<br/>
-│  ├─ models.py<br/>
-│  ├─ tests.py<br/>
+│  ├─ serializers.py<br/>
 │  ├─ urls.py<br/>
 │  └─ views.py<br/>
-├─ mypage/<br/>
-│  ├─ pycache/<br/>
-│  ├─ migrations/<br/>
-│  ├─ templates/<br/>
-│  ├─ init.py<br/>
-│  ├─ admin.py<br/>
-│  ├─ apps.py<br/>
-│  ├─ forms.py<br/>
-│  ├─ models.py<br/>
-│  ├─ tests.py<br/>
-│  ├─ urls.py<br/>
+├─ frontend/<br/>
+│  ├─ build/<br/>
 │  └─ views.py<br/>
-├─ static/<br/>
-│  ├─ css/<br/>
-│  ├─ iamge/<br/> 
+├─ db.sqlite3/<br/>
+├─ requirements.txt/<br/>
 └─ manage.py<br/>
+└─ CustomFitProject<br/>
+
+├─ customfront<br/>
+├─ build/<br/>
+├─ node_modukes/<br/>
+├─ public/<br/>
+├─ src/<br/>
+│  ├─ page/<br/>
+│  └─ style<br/>
 
 
 
 
-# 5. 개발 환경에서의 실행 방법
-```
-# 가상 환경 실행
-source myvenv/scripts/activate
-# 장고 서버 실행
-python manage.py runserver
-```
+
+# 5. 플로우 차트
 
 
 
@@ -117,7 +92,7 @@ python manage.py runserver
 ![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/c22bc1fe-adbb-410a-86b7-b53e4778c622)
 
 
-# 7. 플로우 차트
+# 7. ERD
 ![image](https://github.com/2024-HERETHON/2024-Herethon-3/assets/111862541/d1a55c71-dc9c-4a21-801e-f7438aee7222)
 
 
